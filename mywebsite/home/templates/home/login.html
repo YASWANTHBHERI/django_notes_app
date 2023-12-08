@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <div class="card login-card text-center">
+            <div class="card-header login-header">Login</div>
+            <div class="card-body login-body">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <input type="submit" class="btn btn-sm login-btn text-center" value="Login">
+                </form>
+                <p class="pt-2">Don't Have an Account? <a href="{% url 'signup' %}">SignUp</a></p>
+
+                {% if form.errors %}
+                    <div class="alert alert-danger text-center">
+                        <!-- {{form.errors}} -->
+                        <p>Invalid Credentials</p>
+                    </div>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

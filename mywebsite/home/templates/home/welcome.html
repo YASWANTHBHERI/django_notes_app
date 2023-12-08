@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="row">
+        <div class="col">
+            <div class="home-holder text-center mt-5">
+                <h1 class="home-heading">Hello! <span>&#128075;</span></h1>
+                <p class="home-welcome">Welcome to My Smart Notes</p>
+                <a href="{% url 'notes.list' %}" class="button-btn">Go to Notes <span class="emoji">&#8594;</span></a>
+            </div>
+        </div>
+    </div>
+{% endblock %}  
+    

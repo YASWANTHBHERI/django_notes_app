@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    /* background: linear-gradient(#E9F1FA 50%, #FFFFFF 50%); */
+    background-color: #fffafa;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.home-heading{
+    margin-left: 2rem;
+    font-family: 'Raleway';
+    font-size: 40px;
+}
+.home-welcome{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.button-btn{
+    padding: 10px 25px;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #673aB7,#9c2780);
+    color: #fff;
+    font-family: 'Josefin Sans'sans-serif;
+}
+.emoji{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+.container-forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1), 0 32px 64px -48px rgba(0,0,0,0.5)
+}
+.form-box{
+    width: 450px;
+    margin: 0px 10px;
+}
+.form-header{
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.title-inp{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    resize: none;
+}
+.form-control{
+    resize: none;
+}
+.btn-submit{
+    padding: 10px 25px;
+    border-radius: 6px;
+    border:none;
+    background: rgba(76,68,182,0.808);
+    color: #fff;
+    font-family: 'Josefin Sans'sans-serif;
+}
+.btn-cancel{
+    padding: 10px 25px;
+    border-radius: 6px;
+    border:none;
+    background-color: #ff004f;
+    color: #fff;
+    font-family: 'Josefin Sans'sans-serif;
+}
+.btn-submit:hover{
+    background-color: green;
+    color: #fff;
+}
+.btn-cancel:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.login-header{
+    background: linear-gradient(145deg, #673aB7,#9c2780);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.login-btn{
+    background: linear-gradient(145deg, #673aB7,#9c2780);
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 20px;
+}
+.login-btn:hover{
+    color: #fff;
+}
+
+
+.notes-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.notes-card:hover {
+    transform: scale(1.02);
+}
+
+.notes-header {
+    background-color: #2ecc71; /* Updated color to a green shade */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.notes-body {
+    padding: 20px;
+}
+
+.notes-footer {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.btn-info {
+    background-color: #2ecc71; /* Matched the button color with the header */
+    border-color: #2ecc71;
+}
+
+.btn-info:hover {
+    background-color: #27ae60; /* Darker green on hover */
+    border-color: #27ae60;
+}
+.btn-crud{
+    padding: 5px 20px;
+}
+
+ul{
+    list-style: none;
+}
+.nav-link{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+}
+  
+  
+   
+  
+
+
