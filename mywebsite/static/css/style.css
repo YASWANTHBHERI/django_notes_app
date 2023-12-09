@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 body{
-    /* background: linear-gradient(#E9F1FA 50%, #FFFFFF 50%); */
     background-color: #fffafa;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -124,7 +123,7 @@ a{
 }
 
 .notes-header {
-    background-color: #2ecc71; /* Updated color to a green shade */
+    background-color: #2ecc71;/
     color: #fff;
     text-align: center;
     padding: 15px;
@@ -142,12 +141,12 @@ a{
 }
 
 .btn-info {
-    background-color: #2ecc71; /* Matched the button color with the header */
+    background-color: #2ecc71;
     border-color: #2ecc71;
 }
 
 .btn-info:hover {
-    background-color: #27ae60; /* Darker green on hover */
+    background-color: #27ae60;
     border-color: #27ae60;
 }
 .btn-crud{
